@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form onsubmit="submitPressed(event)">
+        <label for="candy">candyName</label>
+        <input type="text" id="candy">
+        <label for="description">description</label>
+        <input type="text" id="description">
+        <label for="price">price</label>
+        <input type="number" id="price">
+        <label for="quantity">quantity</label>
+        <input type="number" id="quantity">
+        <label for="add">addItem</label>
+        <input type="submit" id="add">
+    </form>
+    <ul id="candyList"></ul>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
